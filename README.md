@@ -1,6 +1,10 @@
 [<img src="./images/logo.png" width="400" height="200"/>](./images/logo.png)
 
 # services-dependencies
+[![Maven Build & Sonar Analysis](https://github.com/eclipse-ecsp/services-dependencies/actions/workflows/maven-build.yml/badge.svg)](https://github.com/eclipse-ecsp/services-dependencies/actions/workflows/maven-build.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=eclipse-ecsp_services-dependencies&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=eclipse-ecsp_services-dependencies)
+[![License Compliance](https://github.com/eclipse-ecsp/services-dependencies/actions/workflows/licence-compliance.yaml/badge.svg)](https://github.com/eclipse-ecsp/services-dependencies/actions/workflows/licence-compliance.yaml)
+[![Latest Release](https://img.shields.io/github/v/release/eclipse-ecsp/services-dependencies?sort=semver)](https://github.com/eclipse-ecsp/services-dependencies/releases)
 
 services-dependencies manages versions of Ignite and third-party dependencies.
 
