@@ -112,7 +112,7 @@
         <meanbean.version>2.0.3</meanbean.version>
         <mongodb.version>4.5.1</mongodb.version> <!--Keep aligned with Stream base-->
         <moquette-broker.version>0.17</moquette-broker.version> <!--Keep aligned with Stream base-->
-        <nimbus-jose-jwt.version>6.2</nimbus-jose-jwt.version>
+        <nimbus-jose-jwt.version>10.2</nimbus-jose-jwt.version>
         <org.json.version>20240303</org.json.version>
         <protobuf.version>4.30.2</protobuf.version>
         <redis-jar.version>2.6.0.5</redis-jar.version> <!--Keep aligned with Stream base-->
