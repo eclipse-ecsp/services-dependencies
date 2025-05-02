@@ -28,3 +28,7 @@ jobs:
     permissions:
       pull-requests: write
       contents: read
+  update_readme_dependencies:
+    uses: ./.github/workflows/workflow-update-readme-dependencies.yml
+    name: update-readme-dependencies
+    secrets: inherit
