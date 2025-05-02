@@ -30,6 +30,5 @@ jobs:
       contents: read
   update_readme_dependencies:
     uses: ./.github/workflows/workflow-update-readme-dependencies.yml
-    name: update-readme-dependencies
     if: ${{ github.event_name != 'pull_request' }}
     secrets: inherit
