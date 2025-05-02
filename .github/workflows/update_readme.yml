@@ -1,0 +1,14 @@
+name: Update Dependencies in README
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  maven_build:
+    uses: .github/workflows/workflow-update-readme-dependencies.yml
+    name: update-readme-dependencies
+    secrets: inherit
