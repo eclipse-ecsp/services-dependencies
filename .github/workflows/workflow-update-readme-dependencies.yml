@@ -53,7 +53,7 @@ jobs:
           add-paths: |
             README.MD
           token: ${{ secrets.ECSP_BOT_PAT }}
-          branch: chore/update-DEPENDENCIES
+          branch: chore/update-readme-dependencies
           commit-message: "chore(readme): Update DEPENDENCIES in README"
           delete-branch: true
           title: Update DEPENDENCIES in README
