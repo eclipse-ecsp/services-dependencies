@@ -29,7 +29,7 @@ The following table lists the dependencies and their versions used in this proje
 | org.mongodb:mongodb-driver-sync  | 4.5.1      |
 | org.yaml:snakeyaml               | 2.4        |
 | joda-time:joda-time              | 2.14.0     |
-| com.fasterxml.jackson:jackson-bom | 2.19.0     |
+| com.fasterxml.jackson:jackson-bom | 2.15.3     |
 | com.hazelcast:hazelcast          | 5.5.0      |
 | commons-io:commons-io            | 2.18.0     |
 | com.google.protobuf:protobuf-bom | 4.30.2     |
