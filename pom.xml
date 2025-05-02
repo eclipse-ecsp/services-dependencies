@@ -97,7 +97,7 @@
         <hazelcast-version>5.5.0</hazelcast-version>
         <hibernate-validator.version>6.6.11.Final</hibernate-validator.version>
         <hibernate.version>6.6.11.Final</hibernate.version>
-        <jackson.version>2.15.3</jackson.version>
+        <jackson.version>2.19.0</jackson.version>
         <java-jwt.version>4.5.0</java-jwt.version>
         <jmockit.version>1.24</jmockit.version>
         <joda-time.version>2.14.0</joda-time.version>
