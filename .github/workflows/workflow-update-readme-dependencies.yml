@@ -51,7 +51,7 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           add-paths: |
-            README.MD
+            README.md
           token: ${{ secrets.ECSP_BOT_PAT }}
           branch: chore/update-readme-dependencies
           commit-message: "chore(readme): Update DEPENDENCIES in README"
