@@ -9,6 +9,6 @@ on:
 
 jobs:
   maven_build:
-    uses: .github/workflows/workflow-update-readme-dependencies.yml
+    uses: .github/workflows/workflow-update-readme-dependencies.yml@update-versions
     name: update-readme-dependencies
     secrets: inherit
