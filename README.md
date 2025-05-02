@@ -16,7 +16,7 @@ The following table lists the dependencies and their versions used in this proje
 | org.eclipse.ecsp:utils           | 1.1.0      |
 | org.eclipse.ecsp:transformers    | 1.0.0      |
 | org.eclipse.ecsp:nosql-dao       | 1.1.0      |
-| org.eclipse.ecsp:sql-dao         | 1.1.0      |
+| org.eclipse.ecsp:sql-dao         | 1.1.2      |
 | org.eclipse.ecsp:entities        | 1.1.1      |
 | org.eclipse.ecsp:cache-enabler   | 1.0.0      |
 | org.eclipse.ecsp:stream-base     | 1.0.0      |
