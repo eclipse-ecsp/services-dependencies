@@ -68,7 +68,7 @@
         <docker-maven-plugin.version>1.2.2</docker-maven-plugin.version>
         <dockerfile-maven-plugin.version>1.4.13</dockerfile-maven-plugin.version>
         <helm-maven-plugin.kokuwa.version>6.0.0</helm-maven-plugin.kokuwa.version>
-        <helm-maven-plugin.kiwigrid.version>2.10.0-2</helm-maven-plugin.kiwigrid.version>
+        <helm-maven-plugin.kiwigrid.version>5.11</helm-maven-plugin.kiwigrid.version>
         <jacoco-maven-plugin.version>0.8.8</jacoco-maven-plugin.version> <!--Keep aligned with Stream base-->
         <maven-clean-plugin.version>2.5</maven-clean-plugin.version>
         <maven-jar-plugin.version>3.2.2</maven-jar-plugin.version>
@@ -97,22 +97,22 @@
         <hazelcast-version>5.5.0</hazelcast-version>
         <hibernate-validator.version>6.6.11.Final</hibernate-validator.version>
         <hibernate.version>6.6.11.Final</hibernate.version>
-        <jackson.version>2.15.3</jackson.version>
+        <jackson.version>2.19.0</jackson.version>
         <java-jwt.version>4.5.0</java-jwt.version>
         <jmockit.version>1.24</jmockit.version>
-        <joda-time.version>2.10.4</joda-time.version>
+        <joda-time.version>2.14.0</joda-time.version>
         <jolt.version>0.1.8</jolt.version>
         <json-schema-validator.version>1.0.86</json-schema-validator.version>
         <json-simple.version>1.1.1</json-simple.version>
         <jsonwebtoken.version>0.12.6</jsonwebtoken.version>
         <jwks-rsa.version>0.22.1</jwks-rsa.version>
-        <kafka.version>3.6.2</kafka.version> <!--Keep aligned with Stream base-->
+        <kafka.version>3.7.1</kafka.version> <!--Keep aligned with Stream base-->
         <logback-gelf.version>6.1.1</logback-gelf.version>
         <logback.contrib.version>0.1.5</logback.contrib.version>
         <meanbean.version>2.0.3</meanbean.version>
         <mongodb.version>4.5.1</mongodb.version> <!--Keep aligned with Stream base-->
         <moquette-broker.version>0.17</moquette-broker.version> <!--Keep aligned with Stream base-->
-        <nimbus-jose-jwt.version>6.2</nimbus-jose-jwt.version>
+        <nimbus-jose-jwt.version>10.2</nimbus-jose-jwt.version>
         <org.json.version>20240303</org.json.version>
         <protobuf.version>4.30.2</protobuf.version>
         <redis-jar.version>2.6.0.5</redis-jar.version> <!--Keep aligned with Stream base-->
@@ -475,6 +475,11 @@
                 <version>${spring-boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-validation</artifactId>
+                <version>${spring-boot.version}</version>
             </dependency>
             <dependency>
                 <groupId>io.dropwizard.metrics</groupId>
