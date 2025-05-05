@@ -67,7 +67,7 @@
         <!-- Plugin versions -->
         <docker-maven-plugin.version>1.2.2</docker-maven-plugin.version>
         <dockerfile-maven-plugin.version>1.4.13</dockerfile-maven-plugin.version>
-        <helm-maven-plugin.kokuwa.version>6.0.0</helm-maven-plugin.kokuwa.version>
+        <helm-maven-plugin.kokuwa.version>6.17.0</helm-maven-plugin.kokuwa.version>
         <helm-maven-plugin.kiwigrid.version>5.11</helm-maven-plugin.kiwigrid.version>
         <jacoco-maven-plugin.version>0.8.8</jacoco-maven-plugin.version> <!--Keep aligned with Stream base-->
         <maven-clean-plugin.version>2.5</maven-clean-plugin.version>
