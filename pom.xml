@@ -62,7 +62,7 @@
         <!-- Spring versions -->
         <spring-boot.version>3.4.4</spring-boot.version>
         <spring-framework.version>6.2.4</spring-framework.version>
-        <lombok.version>1.18.34</lombok.version> <!--Keep aligned with Spring boot-->
+        <lombok.version>1.18.38</lombok.version> <!--Keep aligned with Spring boot-->
 
         <!-- Plugin versions -->
         <docker-maven-plugin.version>1.2.2</docker-maven-plugin.version>
