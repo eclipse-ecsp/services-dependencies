@@ -60,7 +60,7 @@
         <ecsp.transformer.version>1.0.0</ecsp.transformer.version>
 
         <!-- Spring versions -->
-        <spring-boot.version>3.4.4</spring-boot.version>
+        <spring-boot.version>3.4.5</spring-boot.version>
         <spring-framework.version>6.2.4</spring-framework.version>
         <lombok.version>1.18.38</lombok.version> <!--Keep aligned with Spring boot-->
 
