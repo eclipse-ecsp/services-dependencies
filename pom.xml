@@ -135,7 +135,7 @@
         <skipGpgSign>true</skipGpgSign>
         <surefireArgLine>-Xmx1024m -XX:MaxPermSize=256m</surefireArgLine>
         <autoReleaseAfterClose>true</autoReleaseAfterClose>
-        <testcontainers.version>1.20.6</testcontainers.version>
+        <testcontainers.version>1.21.0</testcontainers.version>
     </properties>
 
     <distributionManagement>
