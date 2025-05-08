@@ -194,12 +194,12 @@
             </dependency>
             <dependency>
                 <groupId>org.eclipse.ecsp</groupId>
-                <artifactId>stream-base</artifactId>
+                <artifactId>streambase</artifactId>
                 <version>${ecsp.streambase.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.ecsp</groupId>
-                <artifactId>stream-base</artifactId>
+                <artifactId>streambase</artifactId>
                 <version>${ecsp.streambase.version}</version>
                 <type>test-jar</type>
                 <exclusions>
