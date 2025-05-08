@@ -68,10 +68,10 @@ The following table lists the dependencies and their versions used in this proje
 | org.apache.kafka:kafka_2.13      | 3.7.1      |
 | com.auth0:jwks-rsa               | 0.22.1     |
 | com.auth0:java-jwt               | 4.5.0      |
-| org.projectlombok:lombok         | 1.18.34    |
+| org.projectlombok:lombok         | 1.18.38    |
 | org.springframework:spring-framework-bom | 6.2.4      |
-| org.springframework.boot:spring-boot-dependencies | 3.4.4      |
-| org.springframework.boot:spring-boot-starter-validation | 3.4.4      |
+| org.springframework.boot:spring-boot-dependencies | 3.4.5      |
+| org.springframework.boot:spring-boot-starter-validation | 3.4.5      |
 | io.dropwizard.metrics:metrics-core | 4.2.30     |
 | io.dropwizard.metrics:metrics-annotation | 4.2.30     |
 | io.dropwizard.metrics:metrics-jvm | 4.2.30     |
