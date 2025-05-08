@@ -19,8 +19,8 @@ The following table lists the dependencies and their versions used in this proje
 | org.eclipse.ecsp:sql-dao         | 1.1.2      |
 | org.eclipse.ecsp:entities        | 1.1.1      |
 | org.eclipse.ecsp:cache-enabler   | 1.0.0      |
-| org.eclipse.ecsp:stream-base     | 1.0.0      |
-| org.eclipse.ecsp:stream-base     | 1.0.0      |
+| org.eclipse.ecsp:streambase      | 1.0.0      |
+| org.eclipse.ecsp:streambase      | 1.0.0      |
 | org.mongodb:bson                 | 4.5.1      |
 | org.mongodb:bson-record-codec    | 4.5.1      |
 | org.mongodb:mongodb-driver-core  | 4.5.1      |
