@@ -76,7 +76,7 @@ The following table lists the dependencies and their versions used in this proje
 | io.dropwizard.metrics:metrics-annotation | 4.2.30     |
 | io.dropwizard.metrics:metrics-jvm | 4.2.30     |
 | org.apache.httpcomponents.client5 :httpclient5 | 5.4.3      |
-| org.apache.curator:curator-test  | 5.3.0      |
+| org.apache.curator:curator-test  | 5.8.0      |
 | org.hamcrest:hamcrest            | 3.0        |
 | com.squareup.okhttp3:mockwebserver | 4.12.0     |
 | org.testcontainers:testcontainers-bom | 1.21.0     |
