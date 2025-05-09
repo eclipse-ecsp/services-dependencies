@@ -110,7 +110,7 @@
         <logback-gelf.version>6.1.1</logback-gelf.version>
         <logback.contrib.version>0.1.5</logback.contrib.version>
         <meanbean.version>2.0.3</meanbean.version>
-        <mongodb.version>4.5.1</mongodb.version> <!--Keep aligned with Stream base-->
+        <mongodb.version>5.5.0</mongodb.version> <!--Keep aligned with Stream base-->
         <moquette-broker.version>0.17</moquette-broker.version> <!--Keep aligned with Stream base-->
         <nimbus-jose-jwt.version>10.2</nimbus-jose-jwt.version>
         <org.json.version>20240303</org.json.version>
