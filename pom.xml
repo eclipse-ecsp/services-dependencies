@@ -106,7 +106,7 @@
         <json-simple.version>1.1.1</json-simple.version>
         <jsonwebtoken.version>0.12.6</jsonwebtoken.version>
         <jwks-rsa.version>0.22.1</jwks-rsa.version>
-        <kafka.version>3.7.1</kafka.version> <!--Keep aligned with Stream base-->
+        <kafka.version>4.0.0</kafka.version> <!--Keep aligned with Stream base-->
         <logback-gelf.version>6.1.1</logback-gelf.version>
         <logback.contrib.version>0.1.5</logback.contrib.version>
         <meanbean.version>2.0.3</meanbean.version>
