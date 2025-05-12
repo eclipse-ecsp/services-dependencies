@@ -53,7 +53,7 @@
         <!-- eclipse-ecsp dependency versions -->
         <ecsp.utils.version>1.1.0</ecsp.utils.version>
         <ecsp.entities.version>1.1.1</ecsp.entities.version>
-        <ecsp.nosql-dao.version>1.1.0</ecsp.nosql-dao.version>
+        <ecsp.nosql-dao.version>1.1.1</ecsp.nosql-dao.version>
         <ecsp.sql-dao.version>1.1.2</ecsp.sql-dao.version>
         <ecsp.cache-enabler.version>1.0.0</ecsp.cache-enabler.version>
         <ecsp.streambase.version>1.0.0</ecsp.streambase.version>
