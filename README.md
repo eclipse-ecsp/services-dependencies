@@ -8,6 +8,20 @@
 
 services-dependencies manages versions of Ignite and third-party dependencies.
 
+## Table of Contents
+* [Dependencies](#dependencies)
+* [Getting Started](#getting-started)
+* [Usage](#usage)
+* [Built with Dependencies](#built-with-dependencies)
+* [How to contribute](#how-to-contribute)
+* [Code of Conduct](#code-of-conduct)
+* [Authors](#authors)
+* [Security Contact Information](#security-contact-information)
+* [Support](#support)
+* [Troubleshooting](#troubleshooting)
+* [Licence](#license)
+* [Announcements](#announcements)
+
 ## Dependencies
 The following table lists the dependencies and their versions used in this project.
 
@@ -87,14 +101,13 @@ The following table lists the dependencies and their versions used in this proje
 ## Getting Started
 
 These instructions gets you a copy of the project up and running on your local machine for development and testing purposes.
-purposes.
 
 ### Prerequisites
 
 You must have the following:
 
-* [Java jdk 17+](https://jdk.java.net/archive/)
-* [Maven 3.6](https://maven.apache.org/)
+* [Java jdk 17+](https://www.azul.com/downloads/?version=java-17-lts&package=jdk#zulu)
+* [Maven 3.6 or higher](https://maven.apache.org/)
 
 ### Installation
 
@@ -121,6 +134,11 @@ Step 2 : Add services-dependencies to API/SP Microservices as Parent
 [checkstyle.xml](./checkstyle.xml) is the HARMAN coding standard to follow while writing new/updating existing code.
 
 Checkstyle plugin [maven-checkstyle-plugin:3.3.1](https://maven.apache.org/plugins/maven-checkstyle-plugin/) is integrated in [pom.xml](./pom.xml) which runs in the `validate` phase and `check` goal of the maven lifecycle and fails the build if there are any checkstyle errors in the project.
+
+To run checkstyle plugin explicitly, run the following command:
+```shell
+mvn checkstyle:check
+```
 
 ## Usage
 
