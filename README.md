@@ -34,7 +34,6 @@ The following table lists the dependencies and their versions used in this proje
 | org.eclipse.ecsp:entities        | 1.1.1      |
 | org.eclipse.ecsp:cache-enabler   | 1.0.0      |
 | org.eclipse.ecsp:streambase      | 1.0.0      |
-| org.eclipse.ecsp:streambase      | 1.0.0      |
 | org.mongodb:bson                 | 4.5.1      |
 | org.mongodb:bson-record-codec    | 4.5.1      |
 | org.mongodb:mongodb-driver-core  | 4.5.1      |
@@ -79,7 +78,6 @@ The following table lists the dependencies and their versions used in this proje
 | org.apache.kafka:kafka-server-common | 3.7.1      |
 | org.apache.kafka:kafka-storage   | 3.7.1      |
 | org.apache.kafka:kafka-storage-api | 3.7.1      |
-| org.apache.kafka:kafka_2.13      | 3.7.1      |
 | com.auth0:jwks-rsa               | 0.22.1     |
 | com.auth0:java-jwt               | 4.5.0      |
 | org.projectlombok:lombok         | 1.18.38    |
