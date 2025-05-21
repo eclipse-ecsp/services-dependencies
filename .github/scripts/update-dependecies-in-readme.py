@@ -43,8 +43,11 @@ def update_readme(readme_file, dependencies):
     # Generate the new dependencies table
     new_table = "| Library name                     |   version   |\n"
     new_table += "|----------------------------------|:-----------:|\n"
+    seen = set()
     for artifact_id, version in dependencies:
-        new_table += f"| {artifact_id:<32} | {version:<10} |\n"
+        if artifact_id not in seen:
+            new_table += f"| {artifact_id:<32} | {version:<10} |\n"
+            seen.add(artifact_id)
 
     # Replace the old table with the new one
     updated_content = (
