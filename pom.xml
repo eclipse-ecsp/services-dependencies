@@ -102,7 +102,7 @@
         <jmockit.version>1.24</jmockit.version>
         <joda-time.version>2.14.0</joda-time.version>
         <jolt.version>0.1.8</jolt.version>
-        <json-schema-validator.version>1.0.86</json-schema-validator.version>
+        <json-schema-validator.version>1.5.7</json-schema-validator.version>
         <json-simple.version>1.1.1</json-simple.version>
         <jsonwebtoken.version>0.12.6</jsonwebtoken.version>
         <jwks-rsa.version>0.22.1</jwks-rsa.version>
