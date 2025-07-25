@@ -29,7 +29,7 @@ The following table lists the dependencies and their versions used in this proje
 |----------------------------------|:-----------:|
 | org.eclipse.ecsp:utils           | 1.1.0      |
 | org.eclipse.ecsp:transformers    | 1.0.0      |
-| org.eclipse.ecsp:nosql-dao       | 1.1.0      |
+| org.eclipse.ecsp:nosql-dao       | 1.1.1      |
 | org.eclipse.ecsp:sql-dao         | 1.1.2      |
 | org.eclipse.ecsp:entities        | 1.1.1      |
 | org.eclipse.ecsp:cache-enabler   | 1.0.0      |
@@ -65,7 +65,7 @@ The following table lists the dependencies and their versions used in this proje
 | org.meanbean:meanbean            | 2.0.3      |
 | org.jmockit:jmockit              | 1.24       |
 | org.apache.commons:commons-compress | 1.26.2     |
-| com.networknt:json-schema-validator | 1.0.86     |
+| com.networknt:json-schema-validator | 1.5.8      |
 | io.jsonwebtoken:jjwt             | 0.12.6     |
 | com.nimbusds:nimbus-jose-jwt     | 10.2       |
 | org.apache.kafka:kafka-clients   | 3.7.1      |
