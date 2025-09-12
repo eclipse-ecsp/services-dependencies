@@ -82,7 +82,7 @@
         <maven-javadoc-plugin.version>3.11.2</maven-javadoc-plugin.version>
         <license-tool-plugin.version>1.1.0</license-tool-plugin.version>
         <maven-gpg-plugin.version>3.2.7</maven-gpg-plugin.version>
-        <nexus-staging-maven-plugin.version>1.7.0</nexus-staging-maven-plugin.version>
+        <publishing-maven-plugin.version>0.7.0</publishing-maven-plugin.version>
         <sonar-maven-plugin.version>5.1.0.4751</sonar-maven-plugin.version>
         <maven-failsafe-plugin.version>3.5.3</maven-failsafe-plugin.version>
 
@@ -112,7 +112,7 @@
         <meanbean.version>2.0.3</meanbean.version>
         <mongodb.version>4.5.1</mongodb.version> <!--Keep aligned with Stream base-->
         <moquette-broker.version>0.17</moquette-broker.version> <!--Keep aligned with Stream base-->
-        <nimbus-jose-jwt.version>10.2</nimbus-jose-jwt.version>
+        <nimbus-jose-jwt.version>10.5</nimbus-jose-jwt.version>
         <org.json.version>20240303</org.json.version>
         <protobuf.version>4.30.2</protobuf.version>
         <redis-jar.version>2.6.0.5</redis-jar.version> <!--Keep aligned with Stream base-->
@@ -137,17 +137,6 @@
         <autoReleaseAfterClose>true</autoReleaseAfterClose>
         <testcontainers.version>1.21.0</testcontainers.version>
     </properties>
-
-    <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
-        <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-        </repository>
-    </distributionManagement>
 
     <pluginRepositories>
         <pluginRepository>
@@ -626,17 +615,18 @@
                 </executions>
             </plugin>
             <plugin>
-                <groupId>org.sonatype.plugins</groupId>
-                <artifactId>nexus-staging-maven-plugin</artifactId>
-                <version>${nexus-staging-maven-plugin.version}</version>
-                <extensions>true</extensions>
-                <configuration>
-                    <serverId>ossrh</serverId>
-                    <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-                    <skipStaging>${skipNexusStaging}</skipStaging>
-                    <autoReleaseAfterClose>${autoReleaseAfterClose}</autoReleaseAfterClose>
-                </configuration>
-            </plugin>
+                <groupId>org.sonatype.central</groupId>
+			      <artifactId>central-publishing-maven-plugin</artifactId>
+			      <version>${publishing-maven-plugin.version}</version>
+			      <extensions>true</extensions>
+			      <configuration>
+			        <publishingServerId>central</publishingServerId>
+			        <autoPublish>true</autoPublish>
+			        <waitUntil>published</waitUntil>
+			        <centralSnapshotsUrl>https://central.sonatype.com/repository/maven-snapshots/</centralSnapshotsUrl>
+				<skipPublishing>${skipMavenPublishing}</skipPublishing>
+			      </configuration>
+			</plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
@@ -814,8 +804,7 @@
                 <skipGpgSign>true</skipGpgSign>
                 <skipJavadocs>false</skipJavadocs>
                 <skipSource>false</skipSource>
-                <skipNexusStaging>true</skipNexusStaging>
-                <autoReleaseAfterClose>false</autoReleaseAfterClose>
+                <skipMavenPublishing>false</skipMavenPublishing>
             </properties>
         </profile>
         <profile>
@@ -828,8 +817,7 @@
                 <skipGpgSign>true</skipGpgSign>
                 <skipJavadocs>true</skipJavadocs>
                 <skipSource>true</skipSource>
-                <skipNexusStaging>true</skipNexusStaging>
-                <autoReleaseAfterClose>false</autoReleaseAfterClose>
+                <skipMavenPublishing>false</skipMavenPublishing>
             </properties>
         </profile>
         <profile>
@@ -840,8 +828,7 @@
                 <skipGpgSign>false</skipGpgSign>
                 <skipJavadocs>false</skipJavadocs>
                 <skipSource>false</skipSource>
-                <skipNexusStaging>false</skipNexusStaging>
-                <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                <skipMavenPublishing>false</skipMavenPublishing>
             </properties>
         </profile>
     </profiles>
