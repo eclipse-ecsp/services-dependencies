@@ -789,6 +789,11 @@
                     <artifactId>maven-gpg-plugin</artifactId>
                     <version>${maven-gpg-plugin.version}</version>
                 </plugin>
+                <plugin>
+                    <groupId>org.sonatype.central</groupId>
+			        <artifactId>central-publishing-maven-plugin</artifactId>
+			        <version>${publishing-maven-plugin.version}</version>
+                </plugin>
             </plugins>
         </pluginManagement>
     </build>
